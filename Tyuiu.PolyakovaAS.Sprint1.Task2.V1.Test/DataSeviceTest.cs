@@ -12,9 +12,9 @@ namespace Tyuiu.PolyakovaAS.Sprint1.Task2.V1.Test
         public void TestMethod1()
         {
             DataService ds = new DataService();
-            int km = 10;
+            int km = 1609;
             var res = ds.ConvertKmToM(km);
-            double wait = 6.215;
+            double wait = 2588.881;
             Assert.AreEqual(wait, res);
 
 
