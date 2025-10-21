@@ -9,7 +9,16 @@ namespace Tyuiu.PolyakovaAS.Sprint1.Task3.V13.Lib
     {
         public double MultiplyOfDigits(double number)
         {
-            return number * number * number;
+            int num = (int)number;
+            int product = 1;
+
+            while (num > 0)
+            {
+                product *= num % 10;
+                num /= 10;
+            }
+
+            return product;
         }
     }
 }
