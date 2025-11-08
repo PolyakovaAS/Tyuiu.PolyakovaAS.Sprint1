@@ -1,5 +1,5 @@
 ﻿using Tyuiu.PolyakovaAS.Sprint1.Task5.V2.Lib;
-Console.Title = "Спринт #1 | Выполнил: Полякова А. С. | АСОиУб-23-1";
+Console.Title = "Спринт #1 | Выполнил: Полякова А. С. | ИСТНБ-24-1";
 Console.WriteLine("***************************************************************************");
 Console.WriteLine("* Спринт 1                                                                *");
 Console.WriteLine("* Тема: Операторы составного присваивания                                 *");
@@ -22,3 +22,5 @@ Console.WriteLine("* РЕЗУЛЬТАТ                                         
 Console.WriteLine("***************************************************************************");
 Console.WriteLine("Температура в градусах Фаренгейта равна: " + ds.FahrenheitToСelsius(temp));
 Console.ReadKey();
+
+
